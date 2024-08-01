@@ -1,5 +1,5 @@
 # marian_en_to_it_finetune
-This readMe file contains a summary of the jupyter notebook. For more detailed recount of the processes we took to pre-train the marian model, please go through the jupyter notebook.
+This readMe file contains a summary of the jupyter notebook. For more detailed recount of the processes we took to pre-train the marian model, please go through the jupyter notebook (click on marian_finetune.ipynb).
 
 This repository contains a jupyter notebook file which showcases the steps we took to fine the Helsinki-NLP english to Italian Marian model. The model we used was a pretrained model by the University of Helsinki which we obtained through Hugging Face. The dataset we used was also obtained from Hugging Face called opus books. We split the data using 80% of it for training, 10% for testing and 10% for validation. We used a SacreBlue metric to determine the accuracy of the translation.
 
